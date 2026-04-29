@@ -19,8 +19,8 @@ const caseStudies = {
     project1: {
         content: `
             <div class="case-study">
-                <h2></h2> ABSA NextGen Wealth Studio – First Five Years
-                <div class="case-meta">UI/UX Designer | Jan 2025 - Mar 2025</div>
+                <h2>ABSA NextGen Wealth Studio – First Five Years</h2>
+                <div class="case-meta">UI/UX Designer | Apr 2026 - Current</div>
                 <h3>The Challenge</h3>
                 <p>Elderly users struggled with small text and complex navigation.</p>
                 <h3>My Process</h3>
