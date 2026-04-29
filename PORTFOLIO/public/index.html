@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Tshegofatso Mokone - UI/UX Portfolio</title>
+    <meta name="author" content="Tshegofatso Mokone">
+    <meta name="description" content="Portfolio of Tshegofatso Mokone">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="/">TM</a>
+            </div>
+            <ul class="nav-links">
+    <li><a href="/" class="active">About</a></li>
+    <li><a href="/work">Work</a></li>
+    <li><a href="/contact">Contact</a></li>
+</ul>
+            <div class="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container">
+            <h1>Hi, I'm <span class="highlight">Tshegofatso Mokone</span></h1>
+            <div class="tagline">Digital Arts | Interactive Media | UI/UX Design</div>
+            <div class="bio">
+                I design digital solutions that balance user needs with business goals.
+                I turn complex problems into simple, intuitive experiences.
+            </div>
+            <div class="cta-buttons">
+                <a href="/work" class="btn-primary">View My Work</a>
+                <a href="/contact" class="btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="about-section">
+        <div class="container">
+            <h1 class="page-title">About Me</h1>
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>I'm Tshegofatso Mokone, a Digital Arts graduate specializing in Interactive Media.</h2>
+                    <p>With strong interests in interactive systems, UI/UX design, game design and web development. Experienced in game development, web design, graphic design and critical analysis of digital media. Passionate about creating meaningful, ethical, and engaging digital experiences. Skilled in designing user-centered experiences, developing interactive prototypes, and building responsive websites.</p>
+                    
+                    <h3>My Approach</h3>
+                    <p>I believe good design starts with understanding people. Every project begins with research: learning about user goals, frustrations, and behaviors. From there, I sketch, prototype, test, and refine until the solution feels right.</p>
+                    
+                    <h3>Education</h3>
+                    <ul>
+                        <li><strong>University of the Witwatersrand</strong> Bachelor of Arts in Digital Arts — Major in Interactive Media, Game Design, Extended Reality</li>
+                        <li>Relevant coursework: UI/UX Design, User Research, Interactive Storytelling, Web Technologies</li>
+                    </ul>
+                    
+                    <h3>Beyond Design</h3>
+                    <p>When I'm not designing, I'm out with my friends or playing games.</p>
+                </div>
+            </div>
+
+            <div class="skills-section-about">
+                <h2>Skills & Tools</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Design</h3>
+                        <ul>
+                            <li>Figma</li>
+                            <li>Adobe XD</li>
+                            <li>Wireframing</li>
+                            <li>Prototyping</li>
+                            <li>User Research</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Technical</h3>
+                        <ul>
+                            <li>HTML & CSS</li>
+                            <li>Node.js</li>
+                            <li>Responsive Design</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Soft Skills</h3>
+                        <ul>
+                            <li>User Empathy</li>
+                            <li>Problem Solving</li>
+                            <li>Collaboration</li>
+                            <li>Presentation</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p id="copyright"></p>
+        </div>
+    </footer>
+
+    <script>
+        // Copyright year
+        document.getElementById('copyright').innerHTML = `© ${new Date().getFullYear()} Tshegofatso Mokone | Designed with purpose`;
+        
+        // Mobile hamburger menu
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+        if (hamburger && navLinks) {
+            hamburger.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+            });
+        }
+    </script>
+</body>
+</html>
