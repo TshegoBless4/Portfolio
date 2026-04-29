@@ -19,7 +19,7 @@ const caseStudies = {
     project1: {
         content: `
             <div class="case-study">
-                <h2>Mobile Banking App Redesign</h2>
+                <h2></h2> ABSA NextGen Wealth Studio – First Five Years
                 <div class="case-meta">UI/UX Designer | Jan 2025 - Mar 2025</div>
                 <h3>The Challenge</h3>
                 <p>Elderly users struggled with small text and complex navigation.</p>
