@@ -164,7 +164,7 @@ const caseStudies = {
 
          <h3>User Flow</h3>
          <p>This is the basic user flow of this website</p>
-         <img src="/images/ updated_website_structure.png" alt="updated website structure">
+         <img src="/images/updated_website_structure.png" alt="updated website structure">
 
          <h3>Wireframes</h3>
         <h4>Homepage (Mobile)</h4>
@@ -182,10 +182,18 @@ const caseStudies = {
 <h4>Blog Post (Desktop)</h4>
 <img src="/images/UpdatedBlogPage(desktop).png" alt="UpdatedBlogPage(desktop) wireframe">
 
-        
+     
+<h4>Portfolio Page </h4>
+<p>This page will showcase both artwork and games, using images to represent each category.</p>
+<img src="/images/PortfolioPageWireframe(Mobile).png" alt="PortfolioPageWireframe(Mobile) wireframe">
+
+<h4>Essay </h4>
+<p>This page will showcase both artwork and games, using images to represent each category.</p>
+<img src="/images/EssayPageWireframe(Mobile).png" alt="EssayPageWireframe(Mobile) wireframe">
+<h4>Blog Post (Desktop)</h4>
         
         <h3>Iterations</h3>
-        <h4>Informaion Structure</h4>
+        <h4>Information Structure</h4>
         
         <p>After iterations, this was the final information structure</p>
         <img src="/images/InformatedStructureUpdated.png" alt="Information Structure Diagram">
@@ -194,7 +202,9 @@ const caseStudies = {
          <img src="/images/BasicFlowDiagramUpdated.png" alt="User Flow">
 
         
-       
+        <h3>Prototype</h3>
+        <p><a href="https://tshegobless4.github.io/DIGA3008A--Interactive-Media-/index.html" target="_blank" rel="noopener noreferrer">View ABSA Next Gen Prototype</a></p>
+        
         
       </div>
     `,
