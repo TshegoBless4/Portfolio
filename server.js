@@ -212,22 +212,59 @@ const caseStudies = {
   project3: {
     content: `
       <div class="case-study">
-        <h2>Food Delivery App — Checkout Redesign</h2>
-        <div class="case-meta">UI Designer | Jul 2025 - Sep 2025</div>
+        <h2> VibeCheck — Music Discovery App </h2>
+        <div class="case-meta">UX/UI Designer | Aug 2025 - Oct 2025</div>
         
-        <h3>The Challenge</h3>
-        <p>The existing checkout process required 5 separate screens, causing high cart abandonment rates (estimated at 25%). Users complained about having to re-enter address information and navigate back and forth to edit their orders.</p>
+         <h3>The Challenge</h3>
+        <p>The primary challenge was breaking users free from algorithmic echo chambers. Existing streaming platforms keep users trapped in repetitive recommendation loops, making it difficult to discover new and diverse music</p>
+        <p>Another significant challenge was reducing friction in the music discovery workflow. Users often hear snippets of songs on social media or in cafes but struggle to save them for later. The process typically involves remembering the song name, opening a separate music app, searching manually, and then adding to a playlist.A multi-step process that leads to forgotten songs and abandoned discoveries.</p>
         
-        <h3>My Process</h3>
-        <p>I analysed competitor checkout flows, conducted usability testing on the existing interface, and sketched multiple layout options before settling on a single-page design.</p>
+        <h3>Product Goals</h3>
+        <ol>
+          <li>Empower Music Discovery by allowing users to break free from algorithmic loops on streaming apps and give users direct control over their music discovery journey </li>
+          <li>Let users preview songs directly on the website without switching apps</li>
+          <li>Allow users to explore music by genre when they don't have a specific artist in mind
+
+</li>
+          <li>Seamless Artist Information including displaying top tracks, follower counts, and genre information, Provide clean, modern interface for viewing artist details
+
+</li>
+         
+        </ol>
         
-        <img src="/images/project3.jpg" alt="Food delivery app checkout">
+        <h3>User Personas</h3>
         
-        <h3>The Solution</h3>
-        <p>A consolidated single-page checkout with address auto-suggestion, live order summary updates, and visual progress indicators. All actions — editing cart, adding delivery instructions, applying promo codes — happen without leaving the page.</p>
+        <h4>Persona 1 - Alex The Explorer</h4>
+        <p><strong>Demographics:</strong>  20-year-old university student, constantly listening to music 
+while studying.</p>
+        <p><strong>Goals:</strong> To quickly find new music from artists they already like. Wants to hear a 
+preview before committing to a full song, is open to discovering new music or 
+genre. </p>
+        <p><strong>Frustrations: </strong> Gets stuck in algorithmic loops on streaming apps. Finds it 
+tedious to switch between apps to listen and then find the song again later. 
+When they hear a cool song snippet in a video on social media, they want to 
+save it but can’t do it directly in the app instead they have to open their music 
+app, search for the song based on the snippet they remember and then only 
+then save it to a playlist.  </p>
+        <p><strong>Key Behaviours:</strong> Uses their phone for quick searches. Values efficiency and 
+clean design. Likely to use the search function immediately. </p>
+       
+        <h4>Persona 2 -  Maya The Playlist Curator </h4>
+        <p><strong>Demographics:</strong> 28-year-old who loves hosting friends and creating the perfect 
+ambiance.</p>
+        <p><strong>Goals:</strong> To find specific songs that fit a vibe and save them for later. To build a 
+list of potential tracks for a party playlist. 
+</p>
+        <p><strong>Frustrations: </strong> G Forgets song names heard briefly in a cafe or online. Doesn't like 
+cluttering her main streaming service with one-off saves.  </p>
+        <p><strong>Key Behaviours:</strong>  Plans ahead on a laptop. Enjoys the process of discovering 
+and curating. Will use the favourites feature extensively.  </p>
         
-        <h3>Results</h3>
-        <p>Checkout time reduced from 90 seconds to 30 seconds. Projected cart abandonment reduction of 25%.</p>
+        <h3>User Flow</h3>
+        <img src="/images/FlowDiagram.png" alt="User Flow Diagram">
+        
+        <h3>Sitemap</h3>
+        <img src="/images/InformationStructureDiagram.png" alt="Information Structure Diagram">
       </div>
     `,
   },
